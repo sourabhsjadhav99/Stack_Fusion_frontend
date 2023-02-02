@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+#main-container{
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+#container{
+    text-align: center;
+    width: 1300px;
+    padding: 15px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#form{
+    background-color: white;
+    padding: 25px;
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+.input-field{
+    margin-bottom: 15px;
+}
+input{
+    padding: 15px;
+    width: 400px;
+    height: 35px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: large;
+
+}
+.error{
+    padding-left: 10px;
+    color:red;
+    font-size: 0.85em;
+
+}
+button{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    border: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+}
+button:hover{
+    background-color: blueviolet;
+    transform: scale(105%, 105%);
+}
+
+table{
+    background-color: white;
+    border-collapse:collapse;
+    width: 1200px;
+    margin: 10px auto;
+}
+table th{
+    text-align: left;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+table tr td{
+    padding: 15px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+table tr th:last-child {
+    width: 100px;
+}
+h2{
+    color: white;
+    margin-bottom: 15px;
+}
+#back-btn{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    float: right;
+}
+.icon{
+    width:50px ;
+}
